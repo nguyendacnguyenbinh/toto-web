@@ -13,3 +13,16 @@
         transform: scale(0.9);
     }
 }
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(calc(100% + 30px));
+    }
+      
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
