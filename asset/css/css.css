@@ -786,18 +786,12 @@ html{
 }
 
 .onePiece{
-    position: relative;
-    /* visibility: hidden; */
-    opacity: 1;  
+   transform: scale(0);
+   transition: 0.5s;
 }
 
 .onePiece.in-view{
-    opacity: 1;
-    visibility: visible;
-    animation: fadeIn ease-in-out 0.5s;
-    transition-duration: .4s;   
-    transition: all .5s ease-out;
-
+    transform: scale(1);
 }
 
 .main-container::-webkit-scrollbar{
